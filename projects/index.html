@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Projects </title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/projects.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION BAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">VS</a>
+            <ul class="nav-links">
+                <li><a style="color: #f8fafc; border-bottom: 2px solid #38bdf8;">Projects</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== ALL PROJECTS SECTION ===== -->
+    <section class="projects-section" style="padding-top: 8rem; min-height: 80vh;">
+        <div class="projects-container">
+            <div class="section-header">
+                <span class="section-tag">📂 Complete Portfolio</span>
+                <h2 class="section-title">Reasearch & <span class="accent-text"> Projects</span></h2>
+                <p class="section-subtitle">
+                    A comprehensive look at all the systems I've designed, simulated, and built.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../media/projects/gpa_cal.jpg" alt="GPA Calculator" style="width: 100%; height: auto; display: block; transform: translateY(15px);">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">GPA Calculator for University of Moratuwa</h3>
+                        <p class="project-description">
+                            A simple GPA Calculator built for University of Moratuwa Engineering students. 
+                            This only requires user to input their grades to calculate their GPA.
+                            This can also be used universally by inputting the credit values of each subject.
+                            Built using C# in Visual Studio, and deployed as a Windows application.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">WPF</span>
+                            <span class="tag">Visual Studio</span>
+                        </div>
+                        <a href="https://github.com/Venura-Shiromal/GPA-Calculator-BetterGUI" class="project-link">View Project in Github →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../media/projects/micromouse.jpg" alt="Micromouse" style="width: 100%; height: auto; display: block; transform: translateY(35px);">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Maze Solving Robot</h3>
+                        <p class="project-description">
+                            A maze-solving robot designed for the Inter-University Micromouse competition by Electrical Engineering department at UoM.
+                            This robot is designed to autonomously navigate through a maze using a combination of ultrasonic sensors and algorithms and specially no use of encoders.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Robotics</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">Arduino</span>
+                            <span class="tag">Solidworks</span>
+                        </div>
+                        <a href="https://github.com/Venura-Shiromal/Micromouse-Competition-EE" class="project-link">View Project in Github →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-copy">
+                &copy; 2026 Venura Shiromal. Built with <span class="footer-heart">♥</span> driven by pure passion.
+            </p>
+            <div class="footer-socials">
+                <a href="https://github.com/Venura-Shiromal" target="_blank" aria-label="GitHub" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.15 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.62.24 2.85.12 3.15.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
