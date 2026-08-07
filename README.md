@@ -33,11 +33,14 @@
 ## 📂 Project Structure
 
 ```tree
-├── index.html          # Main HTML file
-├── style.css           # All custom styles
+├── index.html          # Main HTML file           # All custom styles
+├── projects/           # Projects Page
+├── styles/             # Cascade Script Styles
 ├── media/              # Images and assets
 │   └── projects/       # Project preview images
+|   LICENSE             # License file
 └── README.md           # This file
+
 ```
 
 ---
